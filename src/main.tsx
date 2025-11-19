@@ -7,5 +7,6 @@ import InicialPage from './InicialPage.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header />
+    <InicialPage />
   </StrictMode>,
 )
