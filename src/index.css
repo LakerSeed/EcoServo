@@ -1,1 +1,10 @@
 @import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+@layer{
+    body{
+        scroll-behavior: smooth;
+        font-family: "Inconsolata",sans-serif;
+        font-weight: 500;
+    }
+} */
