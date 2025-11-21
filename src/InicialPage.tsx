@@ -18,7 +18,7 @@ export default function InicialPage(){
                     <div className="w-4/12 h-full rounded-r-2xl bg-cover bg-[url(src/assets/imgPrincipal.svg)]"/>
                 </div>
             </section>
-            <section className="bg-white w-full h-140 flex items-center justify-center">
+            <section className="bg-white w-full h-140 mb-20 flex items-center justify-center">
                 <div className="w-4/6 h-11/12 bg-white shadow-2xl/30 flex justify-between rounded-2xl">
                     <div className="flex flex-col px-4">
                         <h2 className="font-bold text-lime-500 text-3xl pt-10 pb-6">Quem somos nós</h2>
