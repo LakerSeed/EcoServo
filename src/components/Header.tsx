@@ -7,10 +7,10 @@ export default function Header(){
         <nav className="flex w-full h-full items-center justify-between px-6">
           <h2 className="text-2xl">EcoServo</h2>
           <ul className="flex gap-5">
-            <li className="hover:scale-105 transition[scale] duration-300 delay-75"><HashLink to="/inicialPage#Banner" smooth>Início</HashLink></li>
             <li className="hover:scale-105 transition[scale] duration-300 delay-75"><HashLink to="/inicialPage#Projeto" smooth>Projeto</HashLink></li>
-            <li className="hover:scale-105 transition[scale] duration-300 delay-75"><a href="#" target="_blank" >Galeria</a></li>
-            <li className="hover:scale-105 transition[scale] duration-300 delay-75"><a href="#" target="_blank" >Contatos</a></li>
+            <li className="hover:scale-105 transition[scale] duration-300 delay-75"><HashLink to="/inicialPage#Equipe" smooth>Equipe</HashLink></li>
+            <li className="hover:scale-105 transition[scale] duration-300 delay-75"><HashLink to="/inicialPage#Etapas" smooth>Etapas</HashLink></li>
+            <li className="hover:scale-105 transition[scale] duration-300 delay-75"><HashLink to="/Footer#Footer" smooth>Contatos</HashLink></li>
           </ul>
         </nav>
       </header>
